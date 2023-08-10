@@ -35,6 +35,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 #connect snowflake
 import snowflake.connector
+streamlit.text('🥑🍞 Avocado Toast')
 
 #Query for trial account metadata
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
